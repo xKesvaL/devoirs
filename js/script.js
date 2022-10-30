@@ -9,4 +9,7 @@ function loadFile(filePath) {
   return result;
 }
 
-console.log(loadFile("devoirs/10-2022/26.md"));
+let lf26 = loadFile("devoirs/10-2022/26.md");
+
+let test = document.querySelector(".test");
+test.innerText = lf26;
